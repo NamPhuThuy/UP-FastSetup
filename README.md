@@ -38,38 +38,25 @@ openupm add com.cysharp.unitask
 npm i com.kyrylokuzyk.primetween
 ```
 
-## FastSetup Folder Structure Example File
+## FastSetup Project Structure Example File
 ```
-__MyGame
-  - Art
+_Project
+    - Art
     - Animation
+        - Particle System
+        - Spine
     - Material
-    - Sprite
-  - Audio
-    - Music
-    - Sound
-  - Code
-    - Editor
-    - Runtime
-      - _Common
-      - Gameplay
-      - UI
-    - Shader
-  - Design
-    - Config
-    - Prefab
-    - Scene
+    - Model 3D
+    - Code
+        - Editor
+        - Runtime
+            - GameManager.cs
+            - PlayerController.cs
+            - MainMenu.cs
 ```
-
-## FastSetup Scripts Structure Example File
-```
-Assets/__MyGame/Code/Runtime/UI/GUIMenu.cs
-Assets/__MyGame/Code/Runtime/UI/SettingsPanel.cs
-Assets/__MyGame/Code/Runtime/Gameplay/PlayerController.cs
-Assets/__MyGame/Code/Runtime/Gameplay/EnemyAI.cs
-# This is a comment
-Assets/__MyGame/Code/Runtime/Data/GameConfig.cs
-```
+Note: 
+- The script treats the tab as **4 spaces**. You can change that in FastProjectStructureSetup.GetIndentLevel()
+- Every script will use the **default template** ```81-C# Script-NewBehaviourScript.cs```
 
 ## Installation
 ### Via Package Manager

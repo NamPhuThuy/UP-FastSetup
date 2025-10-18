@@ -1,21 +1,14 @@
-__MyGame
-  - Art
+_Project
+    - Art
     - Animation
+        - Particle System
+        - Spine
     - Material
-    - Model
-    - Sprite
-    - Texture
-  - Audio
-    - Music
-    - Sound
-  - Code
-    - Editor
-    - Runtime
-      - _Common
-      - Gameplay
-      - UI
-    - Shader
-  - Design
-    - Config
-    - Prefab
-    - Scene
+    - Model 3D
+    - Code
+        - Editor
+        - Runtime
+            - GameManager.cs 
+            - PlayerController.cs
+            - MainMenu.cs 
+            - UIManager.cs 
