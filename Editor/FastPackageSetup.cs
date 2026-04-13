@@ -12,14 +12,14 @@ namespace Techies
 {
     public class FastPackageSetup
     {
-        [MenuItem("Assets/FastSetup/Import Packages from file", true)]
+        [MenuItem("Assets/UP-FastSetup/Import Packages from file", true)]
         private static bool ValidateImportFromText()
         {
             string path = GetSelectObjectPath();
             return File.Exists(path) && path.EndsWith(".txt");
         }
 
-        [MenuItem("Assets/FastSetup/Overwrite Packages manifest file", true)]
+        [MenuItem("Assets/UP-FastSetup/Overwrite Packages manifest file", true)]
         private static bool ValidateOverwritePackagesManifest()
         {
             string path = GetSelectObjectPath();

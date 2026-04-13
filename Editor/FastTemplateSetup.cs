@@ -7,7 +7,7 @@ namespace Techies
 {
     public class FastTemplateSetup
     {
-        [MenuItem("Assets/FastSetup/Copy script templates folder", true)]
+        [MenuItem("Assets/UP-FastSetup/Copy script templates folder", true)]
         private static bool ValidateCopyScriptTemplatesFolder()
         {
             return Directory.Exists(GetSelectObjectPath());
@@ -21,7 +21,7 @@ namespace Techies
             return fullPath;
         }
 
-        [MenuItem("Assets/FastSetup/Copy script templates folder")]
+        [MenuItem("Assets/UP-FastSetup/Copy script templates folder")]
         public static void CopyScriptTemplatesFolder()
         {
             string projectPath = Directory.GetCurrentDirectory();
@@ -38,7 +38,7 @@ namespace Techies
                 "Success",
                 "The folder has been copy to Assets/ScriptTemplates folder.\n" +
                 "Unity will be closed to reload the templates.\n" + 
-                "If it doesn’t, try closing and reopening the project.",
+                "If it doesnï¿½t, try closing and reopening the project.",
                 "OK"
             );
 

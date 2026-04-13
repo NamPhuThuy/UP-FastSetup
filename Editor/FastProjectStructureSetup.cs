@@ -11,14 +11,14 @@ namespace Techies
     {
         #region Menu Items
 
-        [MenuItem("Assets/FastSetup/Generate Structure from file", true)]
+        [MenuItem("Assets/UP-FastSetup/Generate Structure from file", true)]
         private static bool ValidateGenerateStructure()
         {
             string path = GetSelectObjectPath();
             return File.Exists(path) && path.EndsWith(".txt");
         }
 
-        [MenuItem("Assets/FastSetup/Generate Structure from file")]
+        [MenuItem("Assets/UP-FastSetup/Generate Structure from file")]
         private static void GenerateStructure()
         {
             string projectPath = Directory.GetCurrentDirectory();
