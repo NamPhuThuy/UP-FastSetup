@@ -16,8 +16,8 @@ namespace Techies
     /// &lt;path&gt; &lt;url&gt;
     /// 
     /// Example:
-    /// Assets/Submodules/MyLibrary https://github.com/user/MyLibrary.git
-    /// "Assets/Submodules/My Library With Spaces" https://github.com/user/MyLibrary.git
+    /// "Assets/_Project/Module Data/Data Manage" https://github.com/NamPhuThuy/UP-DataManage.git
+    /// "Assets/_Project/Module Audio/FMOD Adapter" https://github.com/NamPhuThuy/UP-FMODAdapter.git
     /// 
     /// Lines starting with '#' are treated as comments and ignored.
     /// Empty lines are also ignored.
